@@ -1,0 +1,14 @@
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\bin\Debug\net7.0\RandomSpeedCheck.exe
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\bin\Debug\net7.0\RandomSpeedCheck.deps.json
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\bin\Debug\net7.0\RandomSpeedCheck.runtimeconfig.json
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\bin\Debug\net7.0\RandomSpeedCheck.dll
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\bin\Debug\net7.0\RandomSpeedCheck.pdb
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.AssemblyInfoInputs.cache
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.AssemblyInfo.cs
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.csproj.CoreCompileInputs.cache
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.dll
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\refint\RandomSpeedCheck.dll
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.pdb
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\RandomSpeedCheck.genruntimeconfig.cache
+C:\Users\guita\RiderProjects\RandomSpeedCheck\RandomSpeedCheck\obj\Debug\net7.0\ref\RandomSpeedCheck.dll
