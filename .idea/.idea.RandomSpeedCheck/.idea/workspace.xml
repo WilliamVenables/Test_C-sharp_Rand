@@ -7,11 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="485ab622-9780-4053-885c-cb9c8f9849bf" name="Changes" comment="" />
+    <list default="true" id="485ab622-9780-4053-885c-cb9c8f9849bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RandomSpeedCheck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RandomSpeedCheck/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomSpeedCheck/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RandomSpeedCheck/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomSpeedCheck/bin/Debug/net7.0/RandomSpeedCheck.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RandomSpeedCheck/bin/Debug/net7.0/RandomSpeedCheck.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomSpeedCheck/bin/Debug/net7.0/RandomSpeedCheck.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomSpeedCheck/bin/Debug/net7.0/RandomSpeedCheck.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomSpeedCheck/obj/Debug/net7.0/RandomSpeedCheck.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RandomSpeedCheck/obj/Debug/net7.0/RandomSpeedCheck.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomSpeedCheck/obj/Debug/net7.0/RandomSpeedCheck.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RandomSpeedCheck/obj/Debug/net7.0/RandomSpeedCheck.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/808851b07acfa1c5c94b0d4f9fb50debedb2df70/src/libraries/System.Private.CoreLib/src/System/Diagnostics/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
@@ -29,6 +39,7 @@
     ".NET Project.RandomSpeedCheck.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707452835372</updated>
       <workItem from="1707452836437" duration="128000" />
-      <workItem from="1707609418119" duration="1648000" />
+      <workItem from="1707609418119" duration="4966000" />
     </task>
     <servers />
   </component>

@@ -4,58 +4,69 @@ class Test
 {
     static void Main(string[] args)
     {
-        const int Runs = 10000000;
+        const int Loops = 50;
+        const int RunsPerLoop = 10000000;
 
         var watch = new System.Diagnostics.Stopwatch();
         
         int randVal;
-        
-        watch.Start();
-        
-        for (var i = 0; i < Runs; ++i)
-        {
-            randVal = new System.Random(System.DateTime.Now.Millisecond).Next(1, 101);
-        }
-        
-        watch.Stop();
-        Console.WriteLine($"Defined range + instantiated time: {watch.ElapsedMilliseconds}");
 
-        
-        
-        watch.Restart();
-        
-        for (var i = 0; i < Runs; ++i)
-        {
-            randVal = new System.Random(System.DateTime.Now.Millisecond).Next() % 100 + 1;
-        }
-        
-        watch.Stop();
-        Console.WriteLine($"Mod range + instantiated time: {watch.ElapsedMilliseconds}");
+        long[] totalRunTime = new long[4];
 
-        var rand = new System.Random(System.DateTime.Now.Millisecond);
+        for (int j = 0; j < Loops; ++j)
+        {
+            watch.Start();
 
-        
-        
-        watch.Restart();
-        
-        for (var i = 0; i < Runs; ++i)
-        {
-            randVal = rand.Next(1, 101);
+            for (var i = 0; i < RunsPerLoop; ++i)
+            {
+                randVal = new System.Random(System.DateTime.Now.Millisecond).Next(1, 101);
+            }
+            
+            watch.Stop();
+            totalRunTime[0] += watch.ElapsedMilliseconds;
+
+
+
+            watch.Restart();
+
+            for (var i = 0; i < RunsPerLoop; ++i)
+            {
+                randVal = new System.Random(System.DateTime.Now.Millisecond).Next() % 100 + 1;
+            }
+
+            watch.Stop();
+            totalRunTime[1] += watch.ElapsedMilliseconds;
+            
+
+
+            var rand = new System.Random(System.DateTime.Now.Millisecond);
+
+            watch.Restart();
+
+            for (var i = 0; i < RunsPerLoop; ++i)
+            {
+                randVal = rand.Next(1, 101);
+            }
+
+            watch.Stop();
+            totalRunTime[2] += watch.ElapsedMilliseconds;
+
+
+
+            watch.Restart();
+
+            for (var i = 0; i < RunsPerLoop; ++i)
+            {
+                randVal = rand.Next() % 100 + 1;
+            }
+
+            watch.Stop();
+            totalRunTime[3] += watch.ElapsedMilliseconds;
         }
         
-        watch.Stop();
-        Console.WriteLine($"Defined range: {watch.ElapsedMilliseconds}");
-        
-        
-        
-        watch.Restart();
-        
-        for (var i = 0; i < Runs; ++i)
-        {
-            randVal = rand.Next() % 100 + 1;
-        }
-        
-        watch.Stop();
-        Console.WriteLine($"Mod range: {watch.ElapsedMilliseconds}");
+        Console.WriteLine(totalRunTime[0] / Loops);
+        Console.WriteLine(totalRunTime[1] / Loops);
+        Console.WriteLine(totalRunTime[2] / Loops);
+        Console.WriteLine(totalRunTime[3] / Loops);
     }
 }
